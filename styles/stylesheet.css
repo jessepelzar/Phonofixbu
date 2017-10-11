@@ -31,13 +31,14 @@
 .color_select {
   margin: 0 auto;
   width: 100%;
-  height: 1000px;
+  height: 100% inherit;
   position: relative;
   background-color: #7BD2F6;
 }
 
 button {
   background: none;
+  border: none;
 }
 
 #welcome {
@@ -128,6 +129,23 @@ h6 {
   line-height: 0.5;
 }
 
+p1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  padding-left: 5vw;
+  padding-top: 5vw;
+  line-height: 0;
+}
+
+p1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  font-weight: 300;
+  padding-left: 5vw;
+  line-height: 0.5;
+}
+
 #cracked_screen {
 width: 20%;
 vertical-align: middle;
@@ -164,8 +182,6 @@ float: 6% right;
 
 #init_issue button{
   margin: 4vw;
-  background: none;
-  border: none;
   width: 40%;
 }
 #other img{
@@ -187,10 +203,9 @@ float: 6% right;
 }
 #requests button {
   margin-top: 100%;
-  background: none;
-  border: none;
   width: 20%;
 }
+
 #next_button img {
   width: 100%;
   vertical-align: middle;
@@ -224,4 +239,38 @@ float: 6% right;
   width: 100%;
   height: auto;
   text-align: center;
+}
+
+#color_choice {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#black_screen {
+width: 40%;
+vertical-align: middle;
+float: 5% left;
+}
+
+#white_screen {
+width: 40%;
+vertical-align: middle;
+float: 5% right;
+}
+
+#black_screen img {
+width: 100%;
+vertical-align: middle;
+float: 6% left;
+}
+
+#white_screen img {
+width: 100%;
+vertical-align: middle;
+float: 6% right;
 }
