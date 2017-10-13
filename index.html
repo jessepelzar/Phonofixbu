@@ -14,8 +14,8 @@
       <button id="start_button" type="button" onclick="smoothScroll(document.getElementById('issue_select'))">Get Started</button>
     </div>
     <div class="issue_select" id="issue_select">
-      <h2>Select your phone model</h2>
-      <h3>Otherwise, select other</h3>
+      <h2>Select from the options below</h2>
+      <p1>Otherwise, select other</p1>
         <div id="init_issue">
           <button id="cracked_screen" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Screen_Cracked_Button.png"></button>
           <button id="battery_dead" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Battery_Dead_Button.png"></button>
@@ -23,57 +23,53 @@
         </div>
     </div>
     <div class="requests" id="requests">
-      <h4>Any additional info or requests</h4>
+      <h3>Any additional info or requests</h3>
       <form></form>
       <button id="next_button" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Next_Button.png"></button>
     </div>
     <div class="model_select" id="model_select">
-      <h5>Select your phone model</h5>
-      <h6>(iPhone exclusive)</h6>
+      <h4>Select your phone model</h4>
+      <p2>(iPhone exclusive)</p2>
       <div id="model_buttons">
         <div id="seven">
-          <ul>
-            <li id="model_7" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_7_Button.png"></li>
-            <li id="model_7+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_7_Plus_Button.png"></li>
-          </ul>
+            <div class="col1" id="model_7" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_7_Button.png"></div>
+            <div class="col2" id="model_7+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_7_Plus_Button.png"></div>
         </div>
         <div id="six_s">
-          <ul>
-              <li id="model_6s" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6s_Button.png"></li>
-              <li id="model_6s+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6s_Plus_Button.png"></li>
-          </ul>
+            <div class="col1" id="model_6s" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6s_Button.png"></div>
+            <div class="col2" id="model_6s+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6s_Plus_Button.png"></div>
         </div>
         <div id="six">
-          <ul>
-            <li id="model_6" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6_Button.png"></li>
-            <li id="model_6+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6_Plus_Button.png"></li>
-          </ul>
+            <div class="col1" id="model_6" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6_Button.png"></div>
+            <div class="col2" id="model_6+" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_6_Plus_Button.png"></div>
         </div>
         <div id="five_s">
-          <ul>
-            <li id="model_5s" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5s_Button.png"></li>
-            <li id="model_5se" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5se_Button.png"></li>
-          </ul>
+            <div class="col1" id="model_5s" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5s_Button.png"></div>
+            <div class="col2" id="model_5se" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5se_Button.png"></div>
         </div>
         <div id="five">
-          <ul>
-            <li id="model_5" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5_Button.png"></li>
-            <li id="model_5c" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5c_Button.png"></li>
-          </ul>
+            <div class="col1" id="model_5" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5_Button.png"></div>
+            <div class="col2" id="model_5c" type="button" onclick="smoothScroll(document.getElementById('color_select'))"><img src="images/iPhone_5c_Button.png"></div>
         </div>
       </div>
     </div>
     <div class="color_select" id="color_select">
-        <p1>Select iPhone Screen Color</p1>
-        <p2>(The home button color)</p2>
+      <div id="box">
+        <h5>Select iPhone Screen Color</h5>
+        <p3>(The home button color)</p3>
         <div id="color_choice">
           <button id="black_screen" type="button" onclick="smoothScroll(document.getElementById('estimate'))"><img src="images/iPhone_Black_Button.png"></button>
           <button id="white_screen" type="button" onclick="smoothScroll(document.getElementById('estimate'))"><img src="images/iPhone_White_Button.png"></button>
         </div>
+      </div>
     </div>
-    <div id="estimate">
+    <div class="estimate" id="estimate">
+      <h6>Total Cost</h6>
+      <p4>Screen repairs come with a free tempered glass screen protector</p4>
+      <output></output>
     </div>
-    </div>
+  </div>
+  <script src="scripts/estimate.js"></script>
   <script src="scripts/smoothScroll.js"></script>
 </body>
 </html>
