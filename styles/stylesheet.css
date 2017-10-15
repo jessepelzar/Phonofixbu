@@ -38,7 +38,7 @@
 .color_select {
   margin: 0 auto;
   width: 100%;
-  height: 100% inherit;
+  height: 100%;
   position: relative;
   background-color: #7BD2F6;
 }
@@ -49,12 +49,15 @@
   height: 100%;
   position: relative;
   background-color: #6D65AC;
-
 }
 
 button {
   background: none;
   border: none;
+}
+
+br {
+  line-height: 5em;
 }
 
 #logo {
@@ -67,26 +70,6 @@ button {
   max-width: 600px;
 }
 
-#start_button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30%;
-  margin-bottom: 20%;
-}
-
-#start_button {
-  width: 50%;
-  border: 2px;
-  border-style: solid;
-  border-color: #93CA68;
-  padding: 4%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 6vw;
-  font-weight: 100;
-  text-align: center;
-  color: Black;
-}
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -170,27 +153,59 @@ p3 {
   line-height: 0.5;
 }
 
-h6 {
+p4 {
+  margin-top: 40%;
   font-family: 'Roboto', sans-serif;
-  font-size: 8vw;
+  font-size: 9vw;
   font-weight: 300;
   color: White;
   text-align: center;
-  padding-top: 15%;
-  line-height: 1;
-  margin: 4% auto;
 }
 
-p4 {
-  position: absolute;
+p5 {
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-size: 3vw;
   font-weight: 100;
   color: white;
   padding: 1%;
-  margin-top: 20%;
-  max-width: 40%;
   text-align: center;
+  display: block;
+  vertical-align: middle;
+  max-width: 50%;
+}
+
+p6 {
+  line-height: 20vw;
+  font-size: 7vw;
+  position: relative;
+}
+
+p7 {
+  line-height: 30vw;
+  font-size: 10vw;
+  position: relative;
+}
+
+#start_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  margin-bottom: 20%;
+}
+
+#start_button {
+  width: 50%;
+  border: 2px;
+  border-style: solid;
+  border-color: #93CA68;
+  padding: 4%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+  font-weight: 100;
+  text-align: center;
+  color: Black;
 }
 
 #cracked_screen {
@@ -291,13 +306,13 @@ float: 6% right;
 }
 
 #color_choice {
-  padding-bottom: 30%;
+  margin-bottom: 30%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16%;
   width: 100%;
-  height: auto;
   text-align: center;
+  padding: 0;
 }
 
 #black_screen {
@@ -324,6 +339,26 @@ vertical-align: middle;
 float: 6% right;
 }
 
-#estimate {
-  margin-top: 0;
+#price_heading {
+    text-align: center;
+}
+
+#price_display {
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  border-radius: 100%;
+  width: 30vw;
+  height: 30vw;
+  border: 2px solid;
+  border-color: White;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: White;
+  display: block;
+}
+
+#last_step button{
+  width: 40%;
 }

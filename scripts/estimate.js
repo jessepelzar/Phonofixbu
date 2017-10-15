@@ -4,6 +4,9 @@ var cracked = document.getElementById('cracked_screen');
 var battery = document.getElementById('battery_dead');
 var other = document.getElementById('other');
 
+
+
+
 var iPhone_7p = document.getElementById('model_7+');
 var iPhone_7 = document.getElementById('model_7');
 var iPhone_6sp = document.getElementById('model_6s+');
@@ -17,3 +20,13 @@ var iPhone_5 = document.getElementById('model_5');
 
 
 const prices = ["50", "50", "60", "60", "60", "70", "70", "80", "100", "120"];
+/*
+
+document.getElementById('target').addEventListener("click", function(){
+
+});
+
+function updatePrice() {
+  document.getElementById('total_cost').innerHTML = function that returns num ;
+};
+*/

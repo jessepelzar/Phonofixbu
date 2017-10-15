@@ -64,10 +64,18 @@
       </div>
     </div>
     <div class="estimate" id="estimate">
-      <h6>Total Cost</h6>
-      <p4>Screen repairs come with a free tempered glass screen protector</p4>
-      <output></output>
+      <div id="price_heading">
+        <br>
+        <p4>Total Cost</p4>
+        <p5>Screen repairs come with a free tempered glass screen protector</p5>
+        <div id="price_display">
+            <p6>$</p6>
+            <p7 id="price">60</p7>
+        </div>
+        <button #id="last_step" type="button" onclick="smoothScroll(document.getElementById('submit'))"><img src="images/Last_Step_Button.png"></button>
+      </div>
     </div>
+    <div class="submit" id="submit">p</div>
   </div>
   <script src="scripts/estimate.js"></script>
   <script src="scripts/smoothScroll.js"></script>
