@@ -1,12 +1,5 @@
 
-
-var cracked = document.getElementById('cracked_screen');
-var battery = document.getElementById('battery_dead');
 var other = document.getElementById('other');
-
-
-
-
 var iPhone_7p = document.getElementById('model_7+');
 var iPhone_7 = document.getElementById('model_7');
 var iPhone_6sp = document.getElementById('model_6s+');
@@ -17,9 +10,55 @@ var iPhone_5se = document.getElementById('model_5se');
 var iPhone_5s = document.getElementById('model_5s');
 var iPhone_5c = document.getElementById('model_5c');
 var iPhone_5 = document.getElementById('model_5');
+var dispPrice = document.getElementById('price');
 
 
-const prices = ["50", "50", "60", "60", "60", "70", "70", "80", "100", "120"];
+// //document.getElementById('cracked_screen').onclick = function() {
+//   var select = 1;
+// };
+// //document.getElementById('battery_dead').onclick = function() {
+//   var select = 0;
+// };
+//
+// //if (select === 0) {
+//   var prices =  ["50", "60", "70", "80", "100", "120"];
+// }
+// //else if (select === 1) {
+//   var prices = ["30", "40", "50", "60", "80", "100"];
+// }
+var prices =  ["50", "60", "70", "80", "100", "120"];
+dispPrice.innerHTML = "0";
+iPhone_7p.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[5];
+});
+iPhone_7.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[4];
+});
+iPhone_6sp.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[3];
+});
+iPhone_6s.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[2];
+});
+iPhone_6p.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[2];
+});
+iPhone_6.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[1];
+});
+iPhone_5se.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[1];
+});
+iPhone_5s.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[1];
+});
+iPhone_5c.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[0];
+});
+iPhone_5.addEventListener('click', () => {
+    dispPrice.innerHTML = prices[0];
+});
+
 /*
 
 document.getElementById('target').addEventListener("click", function(){
