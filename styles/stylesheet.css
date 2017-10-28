@@ -345,8 +345,8 @@ float: 6% right;
 
 #price_display {
   margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 20%;
+  margin-top: 20vw;
+  margin-bottom: 20vw;
   border-radius: 100%;
   width: 30vw;
   height: 30vw;
@@ -359,6 +359,13 @@ float: 6% right;
   display: block;
 }
 
-#last_step button{
-  width: 40%;
+#last_step img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+#last_step {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30vw;
 }
