@@ -264,15 +264,22 @@ float: 6% right;
   text-align: center;
 }
 
-#requests input[type=text] {
+#requests textarea[type=text] {
   margin-top: 50vw;
   width: 60vw;
-  height: 5vw;
+  height: 7vw;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   background: none;
   color: white;
-  line-height: 10px;
+  line-height: 15px;
+  font-size: 4vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+#requests textarea::placeholder {
+  color: #cfcfcf;
 }
 
 #requests button {
