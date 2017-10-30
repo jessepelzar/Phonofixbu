@@ -1,4 +1,4 @@
-
+// generate prices
 var other = document.getElementById('other');
 var iPhone_7p = document.getElementById('model_7+');
 var iPhone_7 = document.getElementById('model_7');
@@ -59,7 +59,13 @@ iPhone_5.addEventListener('click', () => {
     dispPrice.innerHTML = prices[0];
 });
 
-/*
+
+
+function request () {
+  var userInput = document.getElementById("userInput").value;
+  alert(userInput);
+}
+ /*
 
 document.getElementById('target').addEventListener("click", function(){
 

@@ -25,10 +25,8 @@
     </div>
     <div class="requests" id="requests">
       <h3>Any additional info or requests</h3>
-      <form>
-        <textarea name="requests" rows="3" cols="40"></textarea>
-      </form>
-      <button id="next_button" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Next_Button.png"></button>
+      <input type="text" placeholder="my iPhone doesn't charge" id="userInput"=></input><br>
+      <button id="next_button" type="button" onclick="smoothScroll(document.getElementById('model_select')), request()"><img src="images/Next_Button.png"></button>
     </div>
     <div class="model_select" id="model_select">
       <h4>Select your phone model</h4>
