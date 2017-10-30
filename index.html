@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="styles/stylesheet.css">
   <link rel="list-style" href="styles/list-style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900|Quicksand:300,400,500,700|Raleway:100,200,300,400,500,700,900|Roboto:100,200,300,400,500" rel="stylesheet">
+  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
   <title>PhonofixBU</title>
 </head>
 <body style="margin:0">
@@ -24,7 +25,9 @@
     </div>
     <div class="requests" id="requests">
       <h3>Any additional info or requests</h3>
-      <form></form>
+      <form>
+        <textarea name="requests" rows="3" cols="40"></textarea>
+      </form>
       <button id="next_button" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Next_Button.png"></button>
     </div>
     <div class="model_select" id="model_select">
@@ -79,5 +82,7 @@
   </div>
   <script src="scripts/estimate.js"></script>
   <script src="scripts/smoothScroll.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--script type="text/javascript" src="materialize/js/materialize.min.js"></script-->
 </body>
 </html>
