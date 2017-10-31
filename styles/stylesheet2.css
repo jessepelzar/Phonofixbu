@@ -5,48 +5,36 @@
   position: relative;
 }
 
-.start {
+.cell {
   margin: 0 auto;
-  width: 100%;
-  height: 50%;
-  position: relative;
+  height: 100vh inherit;
 }
 
-.issue_select {
-  margin: 0 auto;
-  width: 100%;
-  height: 30%;
-  position: relative;
+.col2 {
+  margin-top: 5%;
 }
 
-.requests {
-  margin: 0 auto;
+#start {
+  background-color: #FFF;
+}
+
+#issue_select {
+  background-color: #FFF;
+}
+
+#requests {
   background-color: #EF586F;
-  width: 100%;
-  height: 172vw;
-  position: relative;
 }
 
-.model_select {
-  margin: 0 auto;
-  width: 100%;
-  height: 100% inherit;
-  position: relative;
+#model_select {
+  background-color: #FFF;
 }
 
-.color_select {
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  position: relative;
+#color_select {
   background-color: #7BD2F6;
 }
 
-.estimate {
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  position: relative;
+#estimate {
   background-color: #6D65AC;
 }
 
@@ -59,42 +47,32 @@ br {
   line-height: 5em;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25%;
-  width: 50%;
-  height: 50%;
-  max-width: 600px;
-}
-
-
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 10vw;
+  font-size: 6vh;
   font-weight: 100;
   text-align: center;
   color: Black;
   margin: 0 auto;
   position: relative;
-  padding-top: 15%;
-  font-size-adjust: 10%;
+  padding-top: 10vh;
+  font-size-adjust: 5%;
+
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5vw;
+  font-size: 4vh;
   font-weight: 300;
   padding-left: 5vw;
-  padding-top: 15%;
+  padding-top: 10vh;
   padding-bottom: 0;
   line-height: 1;
 }
 
 p1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 4vw;
+  font-size: 3vh;
   font-weight: 200;
   padding-left: 5vw;
   padding-top: 0;
@@ -103,38 +81,34 @@ p1 {
 
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5vw;
+  font-size: 4vh;
   font-weight: 300;
+  padding-bottom: 10vh;
+  line-height: 1;
   color: White;
-  padding-left: 5vw;
-  padding-top: 15%;
-  margin: 20% 0 0 0;
-  position: relative;
-  top: 10%;
-  left: 0vw;
 }
 
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5vw;
+  font-size: 4vh;
   font-weight: 300;
   padding-left: 5vw;
-  padding-top: 15%;
+  padding-top: 10vh;
   line-height: 1;
-  margin: 4% auto;
+  margin: 2% auto;
 }
 
 p2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 4vw;
+  font-size: 3vh;
   font-weight: 300;
   padding-left: 5vw;
-  line-height: 1;
+  line-height: 1vh;
 }
 
 h5 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5vw;
+  font-size: 4vh;
   font-weight: 300;
   color: White;
   padding-left: 5vw;
@@ -145,7 +119,7 @@ h5 {
 
 p3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 4vw;
+  font-size: 3vh;
   font-weight: 200;
   color: White;
   padding-left: 5vw;
@@ -155,7 +129,7 @@ p3 {
 p4 {
   margin-top: 40%;
   font-family: 'Roboto', sans-serif;
-  font-size: 9vw;
+  font-size: 8vh;
   font-weight: 300;
   color: White;
   text-align: center;
@@ -164,7 +138,7 @@ p4 {
 p5 {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
-  font-size: 3vw;
+  font-size: 4vh;
   font-weight: 100;
   color: white;
   padding: 1%;
@@ -176,35 +150,52 @@ p5 {
 
 p6 {
   line-height: 20vw;
-  font-size: 7vw;
+  font-size: 7vh;
   position: relative;
 }
 
 p7 {
   line-height: 30vw;
-  font-size: 10vw;
+  font-size: 10vh;
   position: relative;
 }
 
-#start_button {
+#logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30%;
-  margin-bottom: 20%;
+  margin-top: 15vh;
+  width: 50%;
+  max-width: 40vh;
 }
 
 #start_button {
-  width: 50%;
+  width: 30vh;
   border: 2px;
   border-style: solid;
   border-color: #93CA68;
-  padding: 4%;
+  padding: 4vh;
   font-family: 'Roboto', sans-serif;
-  font-size: 6vw;
+  font-size: 3vh;
   font-weight: 100;
   text-align: center;
   color: Black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+#init_issue {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#init_issue button{
+  margin: 4vh;
+  width: 40%;
+  max-width: 200px;
 }
 
 #cracked_screen {
@@ -231,21 +222,6 @@ vertical-align: middle;
 float: 6% right;
 }
 
-#init_issue {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-#init_issue button{
-  margin: 4vw;
-  width: 40%;
-  max-width: 200px;
-}
 #other img{
   width: 100%;
   vertical-align: middle;
@@ -253,6 +229,7 @@ float: 6% right;
 
 #other {
     margin: 0 auto;
+    padding-bottom: 10vh;
 }
 
 #requests {
@@ -264,38 +241,39 @@ float: 6% right;
 }
 
 #requests textarea[type=text] {
-  margin-top: 50vw;
-  width: 60vw;
-  height: 7vw;
-  border: none;
-  border-bottom: 1px solid white;
-  background: none;
-  color: white;
-  line-height: 15px;
-  font-size: 4vw;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  background: transparent url(http://s24.postimg.org/62v2ipx81/underline.png) repeat;
+    border:none;
+    height: 15vh;
+    width: 50vw;
+    overflow: auto;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 300;
+    color: #fff;
 }
 
 #requests textarea::placeholder {
-  color: #cfcfcf;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vh;
+  font-weight: 300;
+  color: #dfdfdf;
 }
 
-#requests button {
-  margin-top: 50vw;
-  width: 20%;
+#next_button  {
+  width: 30%;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
-
-#next_button img {
+#next_button img{
   width: 100%;
   vertical-align: middle;
 }
 
-
-.col2 {
-  margin-top: 5%;
-}
 
  #model_buttons img {
    width: 60% ;
@@ -313,13 +291,7 @@ float: 6% right;
   margin: 10% 0 20% 0;
 }
 
-#box {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
 #color_choice {
-  margin-bottom: 30%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16%;
@@ -332,12 +304,14 @@ float: 6% right;
 width: 40%;
 vertical-align: middle;
 float: 5% left;
+margin-bottom: 20vw;
 }
 
 #white_screen {
 width: 40%;
 vertical-align: middle;
 float: 5% right;
+margin-bottom: 20vw;
 }
 
 #black_screen img {

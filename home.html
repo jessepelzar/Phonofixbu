@@ -9,11 +9,13 @@
 </head>
 <body style="margin:0">
   <div class="container">
+
     <div class="start">
       <img id="logo" src="images/Logo.png">
       <h1 id="welcome">Welcome to</h1>
       <button id="start_button" type="button" onclick="smoothScroll(document.getElementById('issue_select'))">Get Started</button>
     </div>
+
     <div class="issue_select" id="issue_select">
       <h2>Select from the options below</h2>
       <p1>Otherwise, select other</p1>
@@ -23,11 +25,13 @@
           <button id="other" type="button" onclick="smoothScroll(document.getElementById('requests'))"><img src="images/Other_Button.png"></button>
         </div>
     </div>
+
     <div class="requests" id="requests">
       <h3>Any additional info or requests</h3>
-      <textarea type="text" rows="4" placeholder="my iPhone doesn't charge" id="userInput"=></textarea><br>
+      <textarea type="text" rows="4" placeholder="my iPhone doesn't charge" id="userInput"></textarea><br>
       <button id="next_button" type="button" onclick="smoothScroll(document.getElementById('model_select')), request()"><img src="images/Next_Button.png"></button>
     </div>
+
     <div class="model_select" id="model_select">
       <h4>Select your phone model</h4>
       <p2>(iPhone exclusive)</p2>
@@ -54,6 +58,7 @@
         </div>
       </div>
     </div>
+
     <div class="color_select" id="color_select">
       <div id="box">
         <h5>Select iPhone Screen Color</h5>
@@ -64,6 +69,7 @@
         </div>
       </div>
     </div>
+
     <div class="estimate" id="estimate">
       <div id="price_heading">
         <br>
@@ -78,6 +84,7 @@
     </div>
     <div class="submit" id="submit">p</div>
   </div>
+
   <script src="scripts/estimate.js"></script>
   <script src="scripts/smoothScroll.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
