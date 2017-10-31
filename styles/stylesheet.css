@@ -154,13 +154,21 @@ p5 {
 p6 {
   line-height: 20vw;
   font-size: 7vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: White;
   position: relative;
 }
 
 p7 {
-  line-height: 30vw;
+  line-height: 30vh;
   font-size: 10vh;
   position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: White;
 }
 
 #logo {
@@ -338,17 +346,13 @@ float: 6vw right;
 
 #price_display {
   margin: 0 auto;
-  margin-top: 20vw;
-  margin-bottom: 20vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   border-radius: 100%;
-  width: 30vw;
-  height: 30vw;
+  width: 30vh;
+  height: 30vh;
   border: 2px solid;
   border-color: White;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: White;
   display: block;
 }
 
@@ -356,7 +360,6 @@ float: 6vw right;
   width: 30%;
   max-width: 200px;
   margin: 0 auto;
-  margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
