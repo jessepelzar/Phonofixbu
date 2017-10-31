@@ -162,8 +162,8 @@ p6 {
 }
 
 p7 {
-  line-height: 30vh;
-  font-size: 10vh;
+  line-height: 25vh;
+  font-size: 8vh;
   position: relative;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -349,8 +349,8 @@ float: 6vw right;
   margin-top: 10vh;
   margin-bottom: 10vh;
   border-radius: 100%;
-  width: 30vh;
-  height: 30vh;
+  width: 25vh;
+  height: 25vh;
   border: 2px solid;
   border-color: White;
   display: block;
