@@ -299,7 +299,7 @@ float: 6% right;
  }
 
 #model_buttons ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 #color_choice {
