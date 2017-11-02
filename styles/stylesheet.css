@@ -7,7 +7,7 @@
 
 .cell {
   margin: 0 auto;
-  height: 100vh inherit;
+  height: 90vh inherit;
 }
 
 .col2 {
@@ -59,93 +59,52 @@ h1 {
   font-size-adjust: 5%;
 
 }
-
-h2 {
+/* Issue Select */
+ul {
+  padding-top: 5vh;
+  padding-left: 0;
+  list-style: none;
+}
+li {
   font-family: 'Roboto', sans-serif;
-  font-size: 4vh;
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 1vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+/* Requests */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vh;
+  font-weight: 200;
+  color: White;
+  line-height: 2;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+}
+/* color select */
+p4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
   font-weight: 300;
   padding-left: 5vw;
   padding-top: 5vh;
+  color: White;
 }
 
-p1 {
+p5 {
   font-family: 'Roboto', sans-serif;
-  font-size: 3vh;
+  font-size: 1.5em;
   font-weight: 200;
   padding-left: 5vw;
   line-height: 0.5;
   padding-bottom: 3vh;
-}
-
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4vh;
-  font-weight: 300;
-  padding-bottom: 10vh;
-  line-height: 1;
   color: White;
 }
-
-h4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4vh;
-  font-weight: 300;
-  padding-left: 5vw;
-  padding-top: 10vh;
-  padding-bottom: 0;
-
-}
-
-p2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3vh;
-  font-weight: 200;
-  padding-left: 5vw;
-
-}
-
-h5 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4vh;
-  font-weight: 300;
-  padding-left: 5vw;
-  padding-top: 10vh;
-  line-height: 1vh;
-  color: White;
-}
-
-p3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3vh;
-  font-weight: 200;
-  padding-left: 5vw;
-  line-height: 1vh;
-  color: White;
-}
-
-p4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 8vh;
-  font-weight: 300;
-  color: White;
-  padding-bottom: 2vh;
-  text-align: center;
-}
-
-p5 {
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  font-size: 3vh;
-  font-weight: 100;
-  color: white;
-  text-align: center;
-  display: block;
-  vertical-align: middle;
-  max-width: 50vh;
-}
-
-p6 {
-  line-height: 20vh;
+/* estimate */
+p1 {
   font-size: 7vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -154,7 +113,25 @@ p6 {
   position: relative;
 }
 
-p7 {
+p2 {
+  font-size: 3vh;
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: White;
+}
+/* Price Display */
+p8 {
+  font-size: 7vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: White;
+  position: relative;
+}
+
+p9 {
   line-height: 25vh;
   font-size: 8vh;
   position: relative;
@@ -204,27 +181,27 @@ p7 {
 }
 
 #cracked_screen {
-width: 20%;
-vertical-align: middle;
-float: 5% left;
+  width: 20%;
+  vertical-align: middle;
+  float: 5% left;
 }
 
 #battery_dead {
-width: 20%;
-vertical-align: middle;
-float: 5% right;
+  width: 20%;
+  vertical-align: middle;
+  float: 5% right;
 }
 
 #cracked_screen img {
-width: 100%;
-vertical-align: middle;
-float: 6% left;
+  width: 100%;
+  vertical-align: middle;
+  float: 6% left;
 }
 
 #battery_dead img {
-width: 100%;
-vertical-align: middle;
-float: 6% right;
+  width: 100%;
+  vertical-align: middle;
+  float: 6% right;
 }
 
 #other img{
@@ -233,35 +210,32 @@ float: 6% right;
 }
 
 #other {
-    margin: 0 auto;
-    padding-bottom: 10vh;
+  margin: 0 auto;
+  padding-bottom: 10vh;
 }
 
 #requests {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
   text-align: center;
+  height: 95vh;
 }
 
 #requests textarea[type=text] {
-    background: transparent url(http://s24.postimg.org/62v2ipx81/underline.png) repeat;
-    border:none;
-    height: 15vh;
-    width: 50vw;
-    overflow: auto;
-    line-height: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3vh;
-    font-weight: 300;
-    color: #fff;
+  background: transparent url(http://s24.postimg.org/62v2ipx81/underline.png) repeat;
+  border: none;
+  height: 20vh;
+  width: 60vw;
+  overflow: auto;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #fff;
 }
 
 #requests textarea::placeholder {
   line-height: 30px;
   font-family: 'Roboto', sans-serif;
-  font-size: 3vh;
+  font-size: 1em;
   font-weight: 300;
   color: #dfdfdf;
 }
@@ -269,9 +243,7 @@ float: 6% right;
 #next_button  {
   width: 30%;
   max-width: 200px;
-  margin: 0 auto;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin: 10vh 0 0 0;
 }
 
 #next_button img{
@@ -301,46 +273,49 @@ float: 6% right;
 #model_buttons ul {
   list-style-type: none;
 }
-
+#color_select {
+  height: 95vh;
+}
 #color_choice {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16%;
+  margin-top: 20vh;
   width: 100%;
   text-align: center;
   padding: 0;
 }
 
 #black_screen {
-width: 40%;
-vertical-align: middle;
-margin-bottom: 20vw;
-max-width: 30vh;
-padding-right: 5vw;
+  width: 40vh;
+  vertical-align: middle;
+  margin-bottom: 10vw;
+  max-width: 25vh;
+  padding-right: 5vw;
 }
 
 #white_screen {
-width: 40%;
-vertical-align: middle;
-margin-bottom: 20vw;
-max-width: 30vh;
-padding-left: 5vw;
+  width: 40vh;
+  vertical-align: middle;
+  margin-bottom: 10vw;
+  max-width: 25vh;
+  padding-left: 5vw;
 }
 
 #black_screen img {
-width: 100%;
-vertical-align: middle;
-float: 6vw left;
+  width: 100%;
+  vertical-align: middle;
+  float: 6vw left;
 }
 
 #white_screen img {
-width: 100%;
-vertical-align: middle;
-float: 6vw right;
+  width: 100%;
+  vertical-align: middle;
+  float: 6vw right;
 }
 
-#price_heading {
-    text-align: center;
+#estimate {
+  text-align: center;
+  vertical-align: middle;
 }
 
 #price_display {
@@ -353,6 +328,12 @@ float: 6vw right;
   border: 2px solid;
   border-color: White;
   display: block;
+}
+
+#cost {
+  margin: 0 auto;
+  padding-top: 10vh;
+  max-width: 50vh;
 }
 
 #last_step  {
