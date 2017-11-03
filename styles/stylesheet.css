@@ -358,7 +358,7 @@ p9 {
   width: 60vw;
   overflow: auto;
   line-height: 30px;
-  font-size: .7em;
+  font-size: 3vh;
   font-weight: 300;
   color: #000;
   border-bottom: 2px;
@@ -368,7 +368,7 @@ p9 {
 
 #UserInfo textarea::placeholder {
   line-height: 30px;
-  font-size: 1em;
+  font-size: 3vh;
   font-weight: 300;
   color: #dfdfdf;
 }
@@ -376,7 +376,7 @@ p9 {
 #submit {
   margin: 0 auto;
   display: block;
-  width: 40%;
+  width: 25vh;
 }
 
 #submit img {
