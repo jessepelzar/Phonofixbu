@@ -197,12 +197,12 @@ p9 {
   float: 6% right;
 }
 
-#other img{
+.other img{
   width: 100%;
   vertical-align: middle;
 }
 
-#other {
+.other {
   margin: 0 auto;
   padding-bottom: 10vh;
 }
@@ -352,7 +352,7 @@ p9 {
 }
 
 #UserInfo textarea[type=text] {
-  margin-top: 2vh;
+  margin-top: 5vh;
   border: none;
   height: 6vh;
   width: 60vw;

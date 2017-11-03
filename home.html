@@ -28,8 +28,7 @@
             <div id="init_issue">
               <button id="cracked_screen" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Screen_Cracked_Button.png"></button>
               <button id="battery_dead" type="button" onclick="smoothScroll(document.getElementById('model_select'))"><img src="images/Battery_Dead_Button.png"></button><br>
-              <button id="other" type="button" onclick="smoothScroll(document.getElementById('requests'))"><img src="images/Other_Button.png"></button>
-            </div>
+              <button class="other1" id="other_button" type="button" onclick="smoothScroll(document.getElementById('requests'))"><img src="images/Other_Button.png"></button>
             </div>
     </div>
 
@@ -106,7 +105,7 @@
                 <p8>$</p8>
                 <p9 id="price"></p9>
             </div>
-            <button id="last_step" type="button" onclick="smoothScroll(document.getElementById('submit'))"><img src="images/Last_Step_Button.png"></button>
+            <button id="last_step" type="button" onclick="smoothScroll(document.getElementById('UserInfo'))"><img src="images/Last_Step_Button.png"></button>
         </div>
     </div>
     <div class="UserInfo" id="UserInfo">
@@ -117,7 +116,7 @@
         <li>Contact Info</li>
         <li><textarea type="text" rows="1" TextMode="MultiLine" placeholder="Phone Number or Email" id="ContactInput"></textarea></li>
       </ul>
-      <button id="submit" type="button" onclick="alert('thanx');"><img src="images/submit_Button.png"></button>
+      <button id="submit" type="button" name="send" onclick="alert('thanx');"><img src="images/submit_Button.png"></button>
     </div>
   </div>
 
@@ -127,9 +126,9 @@
   <!--script type="text/javascript" src="materialize/js/materialize.min.js"></script-->
 </body>
 <footer>
-  <a>Contact></a>
-  <a>416.376.2309</a>
-  <a>© Jesse Pelzar 2017</a>
-  <a>Phonofix BU</a>
+  <p2>Contact></p2>
+  <p2>416.376.2309</p2>
+  <p2>© Jesse Pelzar 2017</p2>
+  <p2>Phonofix BU</p2>
 </footer>
 </html>
