@@ -373,13 +373,13 @@ p9 {
   color: #dfdfdf;
 }
 
-#submit {
-  margin: 0 auto;
-  display: block;
+#submit  {
+  width: 30%;
+  max-width: 200px;
+  margin: 10vh 0 0 0;
 }
 
-#submit img {
-  margin-top: 20vh;
+#submit img{
+  width: 100%;
   vertical-align: middle;
-  width: 20vh;
 }
