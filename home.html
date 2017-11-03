@@ -10,7 +10,6 @@
 </head>
 <body style="margin:0">
   <div class="container">
-
     <div id="start">
       <div class="cell">
           <img id="logo" src="images/Logo.png">
@@ -110,8 +109,16 @@
             <button id="last_step" type="button" onclick="smoothScroll(document.getElementById('submit'))"><img src="images/Last_Step_Button.png"></button>
         </div>
     </div>
-        <div class="submit" id="submit">p
-        </div>
+    <div class="UserInfo" id="UserInfo">
+      <ul>
+        <li>Your Name</li>
+        <li><textarea type="text" rows="1" TextMode="MultiLine" placeholder="Mary Poppins" id="NameInput"></textarea></li>
+        <br>
+        <li>Contact Info</li>
+        <li><textarea type="text" rows="1" TextMode="MultiLine" placeholder="Phone Number or Email" id="ContactInput"></textarea></li>
+      </ul>
+      <button id="submit" type="button" onclick="alert('thanx');"><img src="images/submit_Button.png"></button>
+    </div>
   </div>
 
   <script src="scripts/estimate.js"></script>
@@ -119,4 +126,10 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!--script type="text/javascript" src="materialize/js/materialize.min.js"></script-->
 </body>
+<footer>
+  <a>Contact></a>
+  <a>416.376.2309</a>
+  <a>© Jesse Pelzar 2017</a>
+  <a>Phonofix BU</a>
+</footer>
 </html>
